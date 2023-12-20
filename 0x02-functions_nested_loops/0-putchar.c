@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/* This program demonstrates the usage of printf function */
+/*this program demonstrates the usage of printf function*/
 int main(void)
 {
 printf("_putchar\n");
