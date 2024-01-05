@@ -1,7 +1,7 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-/* Function prototype */
-char *_strcat(char *dest, char *src);
+/* Function prototypes */
+char *_strncat(char *dest, char *src, int n);
 
 #endif /* MAIN_H */
