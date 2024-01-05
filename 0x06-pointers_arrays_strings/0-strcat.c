@@ -9,19 +9,19 @@
  */
 char *_strcat(char *dest, char *src)
 {
-    char *temp = dest;
+char *temp = dest;
 
-    while (*temp)
-        temp++;
+while (*temp)
+temp++;
 
-    while (*src)
-    {
-        *temp = *src;
-        temp++;
-        src++;
-    }
+while (*src)
+{
+*temp = *src;
+temp++;
+src++;
+}
 
-    *temp = '\0'; /* Adding the null terminator at the end */
+*temp = '\0'; /* Adding the null terminator at the end */
 
-    return dest;
+return dest;
 }
